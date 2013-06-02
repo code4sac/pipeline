@@ -1,0 +1,10 @@
+[18-May-2013 08:43:27 America/Denver] PHP Parse error:  syntax error, unexpected '[', expecting ']' in /home1/abraxxus/public_html/codeforsacramento-sandbox/data/ajax/submit_data.php on line 17
+[18-May-2013 08:45:25 America/Denver] PHP Parse error:  syntax error, unexpected '[', expecting ']' in /home1/abraxxus/public_html/codeforsacramento-sandbox/data/ajax/submit_data.php on line 17
+[18-May-2013 08:52:45 America/Denver] PHP Parse error:  syntax error, unexpected '[', expecting ']' in /home1/abraxxus/public_html/codeforsacramento-sandbox/data/ajax/submit_data.php on line 17
+[18-May-2013 08:55:00 America/Denver] PHP Parse error:  syntax error, unexpected '[', expecting ']' in /home1/abraxxus/public_html/codeforsacramento-sandbox/data/ajax/submit_data.php on line 17
+[18-May-2013 09:00:33 America/Denver] PHP Notice:  Undefined index: table in /home1/abraxxus/public_html/codeforsacramento-sandbox/data/lib/mysqli.php on line 60
+[18-May-2013 09:01:16 America/Denver] PHP Notice:  Undefined index: table in /home1/abraxxus/public_html/codeforsacramento-sandbox/data/lib/mysqli.php on line 74
+[18-May-2013 09:02:28 America/Denver] PHP Notice:  Undefined index: table in /home1/abraxxus/public_html/codeforsacramento-sandbox/data/lib/mysqli.php on line 74
+[18-May-2013 09:02:35 America/Denver] PHP Notice:  Undefined index: table in /home1/abraxxus/public_html/codeforsacramento-sandbox/data/lib/mysqli.php on line 74
+[18-May-2013 09:16:03 America/Denver] PHP Notice:  Undefined index: table in /home1/abraxxus/public_html/codeforsacramento-sandbox/data/lib/mysqli.php on line 74
+[18-May-2013 09:16:04 America/Denver] PHP Notice:  Undefined index: table in /home1/abraxxus/public_html/codeforsacramento-sandbox/data/lib/mysqli.php on line 74

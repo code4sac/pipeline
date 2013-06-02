@@ -1,0 +1,59 @@
+.frm_input {
+	border: 1px solid #666;
+}
+.ods_table {
+	width: 100%;
+}
+.ods_table th {
+	vertical-align: top;
+	text-align: right;
+}
+.data_table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.data_table tr,td {
+	border-collapse: collapse;
+	color: #000;
+}
+.data_table tr,td a {
+	text-decoration: none;
+	color: #007AA5;
+}
+.data_table tr,td a:visited {
+	text-decoration: none;
+	color: #007AA5;
+}
+.data_table th {
+	background-color: #367588;
+	color: #FFF5EE;
+	text-align: left;
+}
+.catTitle {
+	background-color: #ED1C24;
+	font-weight: bolder;
+	color: #FFF5EE;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	height: 20px;
+	border-bottom: 1px solid #FFF;
+}
+.data_item {
+	border-bottom: 1px solid #CCC;
+}
+input, select {
+	border: 1px solid #666;
+}
+#top_banner {
+	height: 52px;
+	width: 100%;
+	background-color: #005974;
+}
+.thick_border {
+	height: 10px;
+	background-color: #FFF;
+	width: 100%;
+}
+.info_help {
+	cursor: pointer;
+}

@@ -1,0 +1,17 @@
+[01-Jun-2013 11:41:05 America/Denver] PHP Fatal error:  Class 'cURL' not found in /home1/abraxxus/public_html/codeforsacramento-sandbox/pipeline/views/show_all.php on line 2
+[01-Jun-2013 11:42:43 America/Denver] PHP Fatal error:  Class 'cURL' not found in /home1/abraxxus/public_html/codeforsacramento-sandbox/pipeline/views/show_all.php on line 2
+[01-Jun-2013 11:46:45 America/Denver] PHP Fatal error:  Class 'cURL' not found in /home1/abraxxus/public_html/codeforsacramento-sandbox/pipeline/views/show_all.php on line 2
+[01-Jun-2013 11:47:13 America/Denver] PHP Fatal error:  Class 'curls' not found in /home1/abraxxus/public_html/codeforsacramento-sandbox/pipeline/views/show_all.php on line 2
+[01-Jun-2013 11:49:03 America/Denver] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments in /home1/abraxxus/public_html/codeforsacramento-sandbox/pipeline/lib/curl.php on line 29
+[01-Jun-2013 11:49:03 America/Denver] PHP Notice:  Undefined property: curls::$cookies in /home1/abraxxus/public_html/codeforsacramento-sandbox/pipeline/lib/curl.php on line 32
+[01-Jun-2013 11:50:20 America/Denver] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments in /home1/abraxxus/public_html/codeforsacramento-sandbox/pipeline/lib/curl.php on line 29
+[01-Jun-2013 11:50:20 America/Denver] PHP Notice:  Undefined property: curls::$cookies in /home1/abraxxus/public_html/codeforsacramento-sandbox/pipeline/lib/curl.php on line 32
+[02-Jun-2013 07:03:06 America/Denver] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments in /home1/abraxxus/public_html/codeforsacramento-sandbox/pipeline/lib/curl.php on line 29
+[02-Jun-2013 07:03:06 America/Denver] PHP Notice:  Undefined property: curls::$cookies in /home1/abraxxus/public_html/codeforsacramento-sandbox/pipeline/lib/curl.php on line 32
+[02-Jun-2013 07:19:26 America/Denver] PHP Warning:  curl_setopt(): You must pass either an object or an array with the CURLOPT_HTTPHEADER, CURLOPT_QUOTE, CURLOPT_HTTP200ALIASES and CURLOPT_POSTQUOTE arguments in /home1/abraxxus/public_html/codeforsacramento-sandbox/pipeline/lib/curl.php on line 29
+[02-Jun-2013 07:19:26 America/Denver] PHP Notice:  Undefined property: curls::$cookies in /home1/abraxxus/public_html/codeforsacramento-sandbox/pipeline/lib/curl.php on line 32
+[02-Jun-2013 08:40:35 America/Denver] PHP Notice:  Undefined property: stdClass::$app_title in /home1/abraxxus/public_html/codeforsacramento-sandbox/pipeline/views/show_apps.php on line 35
+[02-Jun-2013 09:06:17 America/Denver] PHP Notice:  Undefined index: s in /home1/abraxxus/public_html/codeforsacramento-sandbox/pipeline/views/show_apps.php on line 5
+[02-Jun-2013 09:06:21 America/Denver] PHP Notice:  Undefined index: s in /home1/abraxxus/public_html/codeforsacramento-sandbox/pipeline/views/show_apps.php on line 5
+[02-Jun-2013 09:21:43 America/Denver] PHP Notice:  Undefined property: stdClass::$id in /home1/abraxxus/public_html/codeforsacramento-sandbox/pipeline/views/show_apps.php on line 38
+[02-Jun-2013 09:21:45 America/Denver] PHP Notice:  Undefined property: stdClass::$id in /home1/abraxxus/public_html/codeforsacramento-sandbox/pipeline/views/show_apps.php on line 38
