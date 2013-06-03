@@ -5078,3 +5078,475 @@
 2013-06-02 09:57:58:   getRows(apps): 1 rows returned
 2013-06-02 09:57:59:   getRows(apps): 3 rows returned
 2013-06-02 09:57:59:   getRows(apps): 2 rows returned
+2013-06-02 06:44:44:   ERROR (1045) Access denied for user 'root'@'localhost' (using password: YES)
+2013-06-02 06:44:44:   ERROR () 
+2013-06-02 06:46:09:   ERROR (1045) Access denied for user 'root'@'localhost' (using password: YES)
+2013-06-02 06:46:09:   ERROR () 
+2013-06-02 06:46:37:   ERROR (1045) Access denied for user 'cfs'@'localhost' (using password: YES)
+2013-06-02 06:46:37:   ERROR () 
+2013-06-02 06:46:40:   ERROR (1045) Access denied for user 'cfs'@'localhost' (using password: YES)
+2013-06-02 06:46:40:   ERROR () 
+2013-06-02 06:47:11:   ERROR (2005) Unknown MySQL server host '127.0.0;1' (25)
+2013-06-02 06:47:11:   ERROR () 
+2013-06-02 06:52:32:   ERROR (2005) Unknown MySQL server host '127.0.0;1' (25)
+2013-06-02 06:52:32:   ERROR () 
+2013-06-02 06:54:22:   getRows(apps): 2 rows returned
+2013-06-02 06:54:24:   getRows(apps): 3 rows returned
+2013-06-02 06:54:25:   getRows(apps): 1 rows returned
+2013-06-02 06:54:26:   getRows(apps): 3 rows returned
+2013-06-02 06:54:26:   getRows(apps): 2 rows returned
+2013-06-02 06:56:33:   getRows(apps): 2 rows returned
+2013-06-02 06:56:43:   getRows(apps): 3 rows returned
+2013-06-02 06:56:44:   getRows(apps): 1 rows returned
+2013-06-02 06:56:44:   getRows(apps): 3 rows returned
+2013-06-02 06:56:45:   getRows(apps): 2 rows returned
+2013-06-02 06:56:46:   getRows(apps): 3 rows returned
+2013-06-02 06:56:47:   getRows(apps): 1 rows returned
+2013-06-02 06:56:47:   getRows(apps): 3 rows returned
+2013-06-02 06:56:48:   getRows(apps): 2 rows returned
+2013-06-02 06:56:59:   getRows(apps): 3 rows returned
+2013-06-02 06:57:00:   getRows(apps): 2 rows returned
+2013-06-02 06:58:02:   getRows(apps): 3 rows returned
+2013-06-02 06:58:02:   getRows(apps): 1 rows returned
+2013-06-02 06:58:03:   getRows(apps): 0 rows returned
+2013-06-02 06:58:05:   getRows(apps): 1 rows returned
+2013-06-02 06:58:09:   getRows(apps): 2 rows returned
+2013-06-02 06:58:11:   getRows(apps): 3 rows returned
+2013-06-02 06:58:14:   getRows(apps): 1 rows returned
+2013-06-02 06:58:18:   getRows(apps): 3 rows returned
+2013-06-02 06:58:19:   getRows(apps): 2 rows returned
+2013-06-02 06:59:57:   getRows(apps): 3 rows returned
+2013-06-02 06:59:58:   getRows(apps): 1 rows returned
+2013-06-02 06:59:59:   getRows(apps): 3 rows returned
+2013-06-02 07:00:00:   getRows(apps): 2 rows returned
+2013-06-02 07:00:04:   getRows(apps): 3 rows returned
+2013-06-02 07:00:05:   getRows(apps): 1 rows returned
+2013-06-02 07:00:05:   getRows(apps): 0 rows returned
+2013-06-02 07:00:07:   getRows(apps): 2 rows returned
+2013-06-02 07:00:08:   getRows(apps): 3 rows returned
+2013-06-02 07:00:26:   getRows(apps): 1 rows returned
+2013-06-02 07:00:27:   getRows(apps): 3 rows returned
+2013-06-02 07:00:28:   getRows(apps): 2 rows returned
+2013-06-02 07:00:28:   getRows(apps): 3 rows returned
+2013-06-02 07:00:29:   getRows(apps): 1 rows returned
+2013-06-02 07:00:30:   getRows(apps): 3 rows returned
+2013-06-02 07:00:32:   getRows(apps): 2 rows returned
+2013-06-02 07:01:12:   getRows(apps): 3 rows returned
+2013-06-02 07:01:13:   getRows(apps): 1 rows returned
+2013-06-02 07:01:14:   getRows(apps): 3 rows returned
+2013-06-02 07:02:55:   getRows(apps): 2 rows returned
+2013-06-02 07:02:56:   getRows(apps): 1 rows returned
+2013-06-02 07:02:56:   getRows(apps): 3 rows returned
+2013-06-02 07:02:57:   getRows(apps): 2 rows returned
+2013-06-02 07:02:58:   getRows(apps): 3 rows returned
+2013-06-02 07:02:58:   getRows(apps): 2 rows returned
+2013-06-02 07:02:59:   getRows(apps): 3 rows returned
+2013-06-02 07:03:00:   getRows(apps): 2 rows returned
+2013-06-02 07:03:07:   getRows(apps): 3 rows returned
+2013-06-02 07:03:07:   getRows(apps): 1 rows returned
+2013-06-02 07:03:08:   getRows(apps): 3 rows returned
+2013-06-02 07:03:09:   getRows(apps): 2 rows returned
+2013-06-02 07:04:54:   getRows(apps): 2 rows returned
+2013-06-02 07:07:02:   getRows(apps): 3 rows returned
+2013-06-02 07:07:03:   getRows(apps): 1 rows returned
+2013-06-02 07:07:24:   getRows(apps): 3 rows returned
+2013-06-02 07:07:25:   getRows(apps): 2 rows returned
+2013-06-02 07:07:26:   getRows(apps): 3 rows returned
+2013-06-02 07:08:12:   getRows(apps): 2 rows returned
+2013-06-02 07:09:19:   getRows(apps): 2 rows returned
+2013-06-02 07:09:23:   getRows(apps): 2 rows returned
+2013-06-02 07:09:30:   getRows(apps): 2 rows returned
+2013-06-02 07:10:19:   getRows(apps): 2 rows returned
+2013-06-02 07:13:50:   getRows(apps): 2 rows returned
+2013-06-02 07:13:59:   getRows(apps): 2 rows returned
+2013-06-02 07:14:01:   getRows(apps): 2 rows returned
+2013-06-02 07:17:33:   getRows(apps): 2 rows returned
+2013-06-02 07:17:35:   getRows(apps): 3 rows returned
+2013-06-02 07:17:39:   getRows(apps): 2 rows returned
+2013-06-02 07:17:40:   getRows(apps): 3 rows returned
+2013-06-02 07:18:57:   getRows(apps): 2 rows returned
+2013-06-02 07:19:00:   getRows(apps): 2 rows returned
+2013-06-02 07:19:03:   getRows(apps): 2 rows returned
+2013-06-02 07:19:06:   getRows(apps): 2 rows returned
+2013-06-02 07:19:08:   getRows(apps): 2 rows returned
+2013-06-02 07:20:55:   getRows(apps): 2 rows returned
+2013-06-02 07:20:55:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 07:20:57:   getRows(apps): 2 rows returned
+2013-06-02 07:20:58:   getRows(apps WHERE id='2'): 1 rows returned
+2013-06-02 07:21:00:   getRows(apps): 2 rows returned
+2013-06-02 07:21:01:   getRows(apps): 3 rows returned
+2013-06-02 07:21:02:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 07:21:04:   getRows(apps): 2 rows returned
+2013-06-02 07:21:50:   getRows(apps): 2 rows returned
+2013-06-02 07:21:51:   getRows(apps): 3 rows returned
+2013-06-02 07:21:52:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 07:21:56:   getRows(apps): 2 rows returned
+2013-06-02 07:21:57:   getRows(apps): 1 rows returned
+2013-06-02 07:21:59:   getRows(apps WHERE id='5'): 1 rows returned
+2013-06-02 07:22:04:   getRows(apps): 2 rows returned
+2013-06-02 07:22:05:   getRows(apps): 3 rows returned
+2013-06-02 07:22:07:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 07:22:09:   getRows(apps): 2 rows returned
+2013-06-02 07:22:11:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 07:22:12:   getRows(apps): 2 rows returned
+2013-06-02 07:22:13:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 07:22:15:   getRows(apps): 2 rows returned
+2013-06-02 07:22:16:   getRows(apps): 1 rows returned
+2013-06-02 07:22:17:   getRows(apps): 0 rows returned
+2013-06-02 07:22:18:   getRows(apps): 2 rows returned
+2013-06-02 07:22:21:   getRows(apps): 3 rows returned
+2013-06-02 07:22:22:   getRows(apps): 2 rows returned
+2013-06-02 07:22:24:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 07:22:27:   getRows(apps): 2 rows returned
+2013-06-02 07:22:31:   getRows(apps): 1 rows returned
+2013-06-02 07:22:35:   getRows(apps WHERE id='5'): 1 rows returned
+2013-06-02 07:22:38:   getRows(apps): 2 rows returned
+2013-06-02 07:46:26:   getRows(apps): 3 rows returned
+2013-06-02 07:46:27:   getRows(apps): 2 rows returned
+2013-06-02 07:46:28:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 07:49:16:   getRows(apps): 2 rows returned
+2013-06-02 07:49:17:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 07:50:09:   getRows(apps): 2 rows returned
+2013-06-02 07:50:10:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 07:50:22:   getRows(apps): 2 rows returned
+2013-06-02 07:50:24:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 07:50:55:   getRows(apps): 2 rows returned
+2013-06-02 07:50:55:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 07:51:12:   getRows(apps): 2 rows returned
+2013-06-02 07:51:13:   getRows(apps): 3 rows returned
+2013-06-02 07:51:14:   getRows(apps): 2 rows returned
+2013-06-02 07:51:16:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 07:51:19:   getRows(apps): 2 rows returned
+2013-06-02 07:51:20:   getRows(apps): 1 rows returned
+2013-06-02 07:51:23:   getRows(apps WHERE id='5'): 1 rows returned
+2013-06-02 07:51:25:   getRows(apps): 2 rows returned
+2013-06-02 07:51:26:   getRows(apps WHERE id='2'): 1 rows returned
+2013-06-02 07:51:30:   getRows(apps): 2 rows returned
+2013-06-02 07:51:31:   getRows(apps): 3 rows returned
+2013-06-02 07:51:32:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 07:51:34:   getRows(apps): 2 rows returned
+2013-06-02 08:08:41:   getRows(apps): 2 rows returned
+2013-06-02 08:08:44:   getRows(apps): 2 rows returned
+2013-06-02 08:08:45:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:10:02:   getRows(apps): 2 rows returned
+2013-06-02 08:10:03:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:10:35:   getRows(apps): 2 rows returned
+2013-06-02 08:10:36:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:10:39:   getRows(apps): 2 rows returned
+2013-06-02 08:10:41:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:11:00:   getRows(apps): 2 rows returned
+2013-06-02 08:11:01:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:11:07:   getRows(apps): 2 rows returned
+2013-06-02 08:11:08:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:11:10:   getRows(apps): 2 rows returned
+2013-06-02 08:11:11:   getRows(apps WHERE id='2'): 1 rows returned
+2013-06-02 08:11:15:   getRows(apps): 2 rows returned
+2013-06-02 08:11:16:   getRows(apps): 3 rows returned
+2013-06-02 08:11:16:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 08:11:34:   getRows(apps): 2 rows returned
+2013-06-02 08:11:35:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:12:31:   getRows(apps): 2 rows returned
+2013-06-02 08:12:32:   getRows(apps): 3 rows returned
+2013-06-02 08:12:33:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 08:12:34:   getRows(apps): 2 rows returned
+2013-06-02 08:12:36:   getRows(apps): 3 rows returned
+2013-06-02 08:12:37:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 08:12:38:   getRows(apps): 2 rows returned
+2013-06-02 08:12:40:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:12:50:   getRows(apps): 2 rows returned
+2013-06-02 08:12:51:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:13:12:   getRows(apps): 2 rows returned
+2013-06-02 08:13:13:   getRows(apps): 3 rows returned
+2013-06-02 08:13:13:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 08:13:15:   getRows(apps): 2 rows returned
+2013-06-02 08:13:16:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:14:18:   getRows(apps): 2 rows returned
+2013-06-02 08:14:18:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:15:14:   getRows(apps): 2 rows returned
+2013-06-02 08:15:14:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:17:55:   getRows(apps): 2 rows returned
+2013-06-02 08:17:55:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:18:43:   getRows(apps): 2 rows returned
+2013-06-02 08:19:52:   getRows(apps): 3 rows returned
+2013-06-02 08:19:52:   getRows(apps): 3 rows returned
+2013-06-02 08:19:53:   getRows(apps): 1 rows returned
+2013-06-02 08:19:54:   getRows(apps): 0 rows returned
+2013-06-02 08:19:55:   getRows(apps): 1 rows returned
+2013-06-02 08:19:55:   getRows(apps): 3 rows returned
+2013-06-02 08:19:56:   getRows(apps): 3 rows returned
+2013-06-02 08:20:54:   getRows(apps): 3 rows returned
+2013-06-02 08:20:55:   getRows(apps): 3 rows returned
+2013-06-02 08:20:58:   getRows(apps): 3 rows returned
+2013-06-02 08:20:58:   getRows(apps): 1 rows returned
+2013-06-02 08:20:59:   getRows(apps): 0 rows returned
+2013-06-02 08:21:00:   getRows(apps): 1 rows returned
+2013-06-02 08:21:00:   getRows(apps): 3 rows returned
+2013-06-02 08:21:01:   getRows(apps): 3 rows returned
+2013-06-02 08:21:15:   getRows(apps): 3 rows returned
+2013-06-02 08:21:26:   getRows(apps): 3 rows returned
+2013-06-02 08:21:28:   getRows(apps): 3 rows returned
+2013-06-02 08:21:37:   getRows(apps): 3 rows returned
+2013-06-02 08:21:38:   getRows(apps): 3 rows returned
+2013-06-02 08:21:43:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:21:57:   getRows(apps): 3 rows returned
+2013-06-02 08:22:02:   getRows(apps): 3 rows returned
+2013-06-02 08:22:04:   getRows(apps): 1 rows returned
+2013-06-02 08:22:05:   getRows(apps): 3 rows returned
+2013-06-02 08:22:05:   getRows(apps): 0 rows returned
+2013-06-02 08:22:06:   getRows(apps): 1 rows returned
+2013-06-02 08:22:07:   getRows(apps): 3 rows returned
+2013-06-02 08:22:08:   getRows(apps): 3 rows returned
+2013-06-02 08:22:09:   getRows(apps): 3 rows returned
+2013-06-02 08:22:13:   getRows(apps): 1 rows returned
+2013-06-02 08:22:15:   getRows(apps): 3 rows returned
+2013-06-02 08:22:41:   getRows(apps): 3 rows returned
+2013-06-02 08:22:42:   getRows(apps): 3 rows returned
+2013-06-02 08:22:45:   getRows(apps): 3 rows returned
+2013-06-02 08:22:47:   getRows(apps): 3 rows returned
+2013-06-02 08:22:48:   getRows(apps): 1 rows returned
+2013-06-02 08:22:50:   getRows(apps): 3 rows returned
+2013-06-02 08:23:17:   getRows(apps): 3 rows returned
+2013-06-02 08:23:38:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:23:40:   getRows(apps): 3 rows returned
+2013-06-02 08:23:53:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:23:55:   getRows(apps): 3 rows returned
+2013-06-02 08:24:03:   getRows(apps): 3 rows returned
+2013-06-02 08:24:05:   getRows(apps): 1 rows returned
+2013-06-02 08:24:05:   getRows(apps): 3 rows returned
+2013-06-02 08:24:06:   getRows(apps): 3 rows returned
+2013-06-02 08:24:10:   getRows(apps): 3 rows returned
+2013-06-02 08:24:10:   getRows(apps): 1 rows returned
+2013-06-02 08:24:11:   getRows(apps): 0 rows returned
+2013-06-02 08:24:12:   getRows(apps): 3 rows returned
+2013-06-02 08:24:12:   getRows(apps): 3 rows returned
+2013-06-02 08:25:26:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:26:08:   getRows(apps): 3 rows returned
+2013-06-02 08:26:08:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:26:26:   getRows(apps): 3 rows returned
+2013-06-02 08:26:28:   getRows(apps): 3 rows returned
+2013-06-02 08:26:29:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 08:26:31:   getRows(apps): 3 rows returned
+2013-06-02 08:26:43:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:26:57:   getRows(apps): 3 rows returned
+2013-06-02 08:26:58:   getRows(apps): 3 rows returned
+2013-06-02 08:27:00:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 08:27:06:   getRows(apps): 3 rows returned
+2013-06-02 08:27:06:   getRows(apps): 3 rows returned
+2013-06-02 08:27:08:   getRows(apps): 3 rows returned
+2013-06-02 08:27:08:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:30:09:   getRows(apps): 3 rows returned
+2013-06-02 08:30:10:   getRows(apps): 3 rows returned
+2013-06-02 08:30:11:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 08:30:19:   getRows(apps): 3 rows returned
+2013-06-02 08:30:21:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:30:23:   getRows(apps): 3 rows returned
+2013-06-02 08:30:26:   getRows(apps): 3 rows returned
+2013-06-02 08:30:27:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 08:32:03:   getRows(apps): 3 rows returned
+2013-06-02 08:32:04:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:32:05:   getRows(apps): 3 rows returned
+2013-06-02 08:32:06:   getRows(apps): 3 rows returned
+2013-06-02 08:32:06:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 08:32:11:   getRows(apps): 3 rows returned
+2013-06-02 08:32:12:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:32:14:   getRows(apps): 3 rows returned
+2013-06-02 08:32:15:   getRows(apps): 3 rows returned
+2013-06-02 08:32:18:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 08:36:47:   getRows(apps): 3 rows returned
+2013-06-02 08:36:48:   getRows(apps WHERE id='1'): 1 rows returned
+2013-06-02 08:36:50:   getRows(apps): 3 rows returned
+2013-06-02 08:36:51:   getRows(apps): 3 rows returned
+2013-06-02 08:36:52:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 08:38:28:   getRows(apps): 3 rows returned
+2013-06-02 08:38:29:   getRows(apps): 3 rows returned
+2013-06-02 08:38:30:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 08:42:27:   getRows(apps): 3 rows returned
+2013-06-02 08:42:27:   getRows(apps): 3 rows returned
+2013-06-02 08:42:28:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 08:42:37:   getRows(apps): 3 rows returned
+2013-06-02 08:42:38:   getRows(apps): 3 rows returned
+2013-06-02 08:42:39:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 08:44:23:   getRows(apps): 3 rows returned
+2013-06-02 08:44:25:   getRows(apps): 3 rows returned
+2013-06-02 08:44:25:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 08:46:56:   getRows(apps): 3 rows returned
+2013-06-02 08:46:57:   getRows(apps): 3 rows returned
+2013-06-02 08:46:58:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 08:47:38:   getRows(apps): 3 rows returned
+2013-06-02 08:47:39:   getRows(apps): 3 rows returned
+2013-06-02 08:47:40:   getRows(apps WHERE id='3'): 1 rows returned
+2013-06-02 08:49:46:   getRows(apps): 3 rows returned
+2013-06-02 08:49:47:   getRows(apps): 3 rows returned
+2013-06-02 08:49:48:   getRows(apps): 1 rows returned
+2013-06-02 08:50:44:   getRows(apps): 3 rows returned
+2013-06-02 08:50:44:   getRows(apps): 3 rows returned
+2013-06-02 08:50:45:   getRows(apps): 1 rows returned
+2013-06-02 08:50:58:   getRows(apps): 3 rows returned
+2013-06-02 08:50:59:   getRows(apps): 1 rows returned
+2013-06-02 08:51:27:   getRows(apps): 3 rows returned
+2013-06-02 08:51:27:   getRows(apps): 1 rows returned
+2013-06-02 08:52:21:   getRows(apps): 3 rows returned
+2013-06-02 08:52:22:   getRows(apps): 1 rows returned
+2013-06-02 08:52:37:   getRows(apps): 3 rows returned
+2013-06-02 08:52:38:   getRows(apps): 1 rows returned
+2013-06-02 08:53:18:   getRows(apps): 3 rows returned
+2013-06-02 08:53:20:   getRows(apps): 3 rows returned
+2013-06-02 08:53:20:   getRows(apps): 1 rows returned
+2013-06-02 08:53:21:   getRows(apps): 0 rows returned
+2013-06-02 08:53:22:   getRows(apps): 1 rows returned
+2013-06-02 08:53:23:   getRows(apps): 3 rows returned
+2013-06-02 08:53:24:   getRows(apps): 3 rows returned
+2013-06-02 08:53:29:   getRows(apps): 1 rows returned
+2013-06-02 08:53:33:   getRows(apps): 3 rows returned
+2013-06-02 08:53:36:   getRows(apps): 1 rows returned
+2013-06-02 08:53:37:   getRows(apps): 3 rows returned
+2013-06-02 08:53:38:   getRows(apps): 1 rows returned
+2013-06-02 08:53:40:   getRows(apps): 3 rows returned
+2013-06-02 08:53:41:   getRows(apps): 3 rows returned
+2013-06-02 08:53:42:   getRows(apps): 1 rows returned
+2013-06-02 08:53:46:   getRows(apps): 3 rows returned
+2013-06-02 08:53:47:   getRows(apps): 1 rows returned
+2013-06-02 08:53:48:   getRows(apps): 3 rows returned
+2013-06-02 08:53:49:   getRows(apps): 3 rows returned
+2013-06-02 08:53:53:   getRows(apps): 1 rows returned
+2013-06-02 08:53:58:   getRows(apps): 3 rows returned
+2013-06-02 08:53:59:   getRows(apps): 3 rows returned
+2013-06-02 08:54:00:   getRows(apps): 1 rows returned
+2013-06-02 08:54:16:   getRows(apps): 3 rows returned
+2013-06-02 08:54:17:   getRows(apps): 3 rows returned
+2013-06-02 08:54:19:   getRows(apps): 1 rows returned
+2013-06-02 08:54:45:   getRows(apps): 3 rows returned
+2013-06-02 08:54:46:   getRows(apps): 3 rows returned
+2013-06-02 08:54:46:   getRows(apps): 1 rows returned
+2013-06-02 08:55:00:   getRows(apps): 3 rows returned
+2013-06-02 10:02:54:   getRows(apps): 1 rows returned
+2013-06-02 10:06:16:   getRows(apps): 3 rows returned
+2013-06-02 10:06:17:   getRows(apps): 1 rows returned
+2013-06-02 10:28:59:   getRows(apps): 3 rows returned
+2013-06-02 10:29:14:   getRows(apps): 3 rows returned
+2013-06-02 10:31:34:   getRows(apps): 3 rows returned
+2013-06-02 10:32:21:   getRows(apps): 3 rows returned
+2013-06-02 10:33:06:   getRows(apps): 3 rows returned
+2013-06-02 10:33:29:   getRows(apps): 3 rows returned
+2013-06-02 10:35:08:   getRows(apps): 3 rows returned
+2013-06-02 10:35:09:   getRows(apps): 1 rows returned
+2013-06-02 10:35:10:   getRows(apps): 3 rows returned
+2013-06-02 10:35:11:   getRows(apps): 3 rows returned
+2013-06-02 10:35:12:   getRows(apps): 0 rows returned
+2013-06-02 10:35:13:   getRows(apps): 1 rows returned
+2013-06-02 10:35:13:   getRows(apps): 3 rows returned
+2013-06-02 10:35:14:   getRows(apps): 3 rows returned
+2013-06-02 10:35:28:   getRows(apps): 3 rows returned
+2013-06-02 10:35:29:   getRows(apps): 1 rows returned
+2013-06-02 10:35:38:   getRows(apps): 3 rows returned
+2013-06-02 10:38:10:   getRows(apps): 3 rows returned
+2013-06-02 10:38:13:   getRows(apps): 3 rows returned
+2013-06-02 10:38:40:   getRows(apps): 3 rows returned
+2013-06-02 10:39:37:   getRows(apps): 3 rows returned
+2013-06-02 10:41:42:   getRows(apps): 3 rows returned
+2013-06-02 10:45:34:   getRows(apps): 3 rows returned
+2013-06-02 10:45:46:   getRows(apps): 3 rows returned
+2013-06-02 10:46:46:   getRows(apps): 1 rows returned
+2013-06-03 12:14:17:   getRows(apps): 3 rows returned
+2013-06-03 12:17:04:   getRows(apps): 3 rows returned
+2013-06-03 12:17:36:   getRows(apps): 3 rows returned
+2013-06-03 12:20:12:   getRows(apps): 3 rows returned
+2013-06-03 12:20:23:   getRows(apps): 3 rows returned
+2013-06-03 12:20:25:   getRows(apps): 3 rows returned
+2013-06-03 12:20:36:   getRows(apps): 3 rows returned
+2013-06-03 12:23:39:   getRows(apps): 3 rows returned
+2013-06-03 12:23:53:   getRows(apps): 3 rows returned
+2013-06-03 12:26:01:   getRows(apps): 3 rows returned
+2013-06-03 12:26:14:   getRows(apps): 3 rows returned
+2013-06-03 12:26:28:   getRows(apps): 3 rows returned
+2013-06-03 12:26:31:   getRows(apps): 3 rows returned
+2013-06-03 12:27:48:   getRows(apps): 3 rows returned
+2013-06-03 12:27:52:   getRows(apps): 3 rows returned
+2013-06-03 12:28:28:   getRows(apps): 3 rows returned
+2013-06-03 12:28:30:   getRows(apps): 3 rows returned
+2013-06-03 12:29:15:   getRows(apps): 3 rows returned
+2013-06-03 12:30:37:   getRows(apps): 3 rows returned
+2013-06-03 12:32:11:   getRows(apps): 3 rows returned
+2013-06-03 12:32:28:   getRows(apps): 3 rows returned
+2013-06-03 12:34:47:   getRows(apps): 3 rows returned
+2013-06-03 12:34:52:   getRows(apps): 3 rows returned
+2013-06-03 12:36:46:   getRows(apps): 3 rows returned
+2013-06-03 12:38:23:   getRows(apps): 3 rows returned
+2013-06-03 12:39:25:   getRows(apps): 3 rows returned
+2013-06-03 12:40:13:   getRows(apps): 3 rows returned
+2013-06-03 12:40:20:   getRows(apps): 3 rows returned
+2013-06-03 12:40:53:   getRows(apps): 3 rows returned
+2013-06-03 12:43:37:   getRows(apps): 3 rows returned
+2013-06-03 12:44:56:   getRows(apps): 3 rows returned
+2013-06-03 12:44:59:   getRows(apps): 3 rows returned
+2013-06-03 12:48:44:   getRows(apps): 3 rows returned
+2013-06-03 12:49:03:   getRows(apps): 3 rows returned
+2013-06-03 12:50:43:   getRows(apps): 3 rows returned
+2013-06-03 12:53:54:   getRows(apps): 3 rows returned
+2013-06-03 12:53:58:   getRows(apps): 3 rows returned
+2013-06-03 12:54:12:   getRows(apps): 3 rows returned
+2013-06-03 12:55:13:   getRows(apps): 3 rows returned
+2013-06-03 12:56:10:   getRows(apps): 3 rows returned
+2013-06-03 12:56:18:   getRows(apps): 3 rows returned
+2013-06-03 12:56:19:   getRows(apps): 1 rows returned
+2013-06-03 12:56:20:   getRows(apps): 3 rows returned
+2013-06-03 12:56:21:   getRows(apps): 1 rows returned
+2013-06-03 12:58:55:   getRows(apps): 3 rows returned
+2013-06-03 12:58:57:   getRows(apps): 3 rows returned
+2013-06-03 12:58:57:   getRows(apps): 1 rows returned
+2013-06-03 01:01:21:   getRows(apps): 3 rows returned
+2013-06-03 01:01:25:   getRows(apps): 3 rows returned
+2013-06-03 01:01:27:   getRows(apps): 3 rows returned
+2013-06-03 01:01:27:   getRows(apps): 1 rows returned
+2013-06-03 01:02:37:   getRows(apps): 3 rows returned
+2013-06-03 01:02:38:   getRows(apps): 1 rows returned
+2013-06-03 01:04:06:   getRows(apps): 3 rows returned
+2013-06-03 01:04:08:   getRows(apps): 1 rows returned
+2013-06-03 01:06:14:   getRows(apps): 3 rows returned
+2013-06-03 01:06:16:   getRows(apps): 3 rows returned
+2013-06-03 01:06:17:   getRows(apps): 1 rows returned
+2013-06-03 01:07:04:   getRows(apps): 3 rows returned
+2013-06-03 01:07:05:   getRows(apps): 3 rows returned
+2013-06-03 01:07:06:   getRows(apps): 1 rows returned
+2013-06-03 01:07:09:   getRows(apps): 3 rows returned
+2013-06-03 01:07:10:   getRows(apps): 1 rows returned
+2013-06-03 01:08:20:   getRows(apps): 3 rows returned
+2013-06-03 01:08:22:   getRows(apps): 1 rows returned
+2013-06-03 01:08:37:   getRows(apps): 3 rows returned
+2013-06-03 01:08:39:   getRows(apps): 1 rows returned
+2013-06-03 01:09:30:   getRows(apps): 3 rows returned
+2013-06-03 01:09:33:   getRows(apps): 3 rows returned
+2013-06-03 01:09:34:   getRows(apps): 1 rows returned
+2013-06-03 01:09:56:   getRows(apps): 3 rows returned
+2013-06-03 01:09:57:   getRows(apps): 1 rows returned
+2013-06-03 01:38:50:   getRows(apps): 3 rows returned
+2013-06-03 01:38:50:   getRows(apps): 1 rows returned
+2013-06-03 01:38:58:   getRows(apps): 3 rows returned
+2013-06-03 01:39:00:   getRows(apps): 1 rows returned
+2013-06-03 01:41:55:   getRows(apps): 3 rows returned
+2013-06-03 01:41:58:   getRows(apps): 1 rows returned
+2013-06-03 01:43:19:   getRows(apps): 3 rows returned
+2013-06-03 01:43:22:   getRows(apps): 1 rows returned
+2013-06-03 01:43:54:   getRows(apps): 3 rows returned
+2013-06-03 01:43:55:   getRows(apps): 1 rows returned
+2013-06-03 01:44:29:   getRows(apps): 3 rows returned
+2013-06-03 01:44:32:   getRows(apps): 1 rows returned
+2013-06-03 01:45:36:   getRows(apps): 3 rows returned
+2013-06-03 01:45:37:   getRows(apps): 1 rows returned
+2013-06-03 01:46:12:   getRows(apps): 3 rows returned
+2013-06-03 01:46:16:   getRows(apps): 1 rows returned
+2013-06-03 01:46:21:   getRows(apps): 3 rows returned
+2013-06-03 01:46:23:   getRows(apps): 1 rows returned
+2013-06-03 01:46:59:   getRows(apps): 3 rows returned
+2013-06-03 01:47:05:   getRows(apps): 1 rows returned
+2013-06-03 01:48:02:   getRows(apps): 3 rows returned
+2013-06-03 01:48:03:   getRows(apps): 1 rows returned
+2013-06-03 01:48:06:   getRows(apps): 3 rows returned
+2013-06-03 01:48:08:   getRows(apps): 1 rows returned
+2013-06-03 01:48:11:   getRows(apps): 3 rows returned
+2013-06-03 01:48:13:   getRows(apps): 3 rows returned
+2013-06-03 01:48:15:   getRows(apps): 1 rows returned
+2013-06-03 01:48:32:   getRows(apps): 3 rows returned
+2013-06-03 01:48:33:   getRows(apps): 1 rows returned
+2013-06-03 01:48:58:   getRows(apps): 3 rows returned
+2013-06-03 01:48:59:   getRows(apps): 1 rows returned

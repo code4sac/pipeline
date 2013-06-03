@@ -3,9 +3,11 @@ include('../inc.php');
 $sql = new mysql();
 ?>
 <script type="text/javascript">
+$(function() {
 	function show_app_detail(id) {
 		alert(id);
 	}
+});
 </script>
 <?
 $status_id = filter_var($_GET['s'], FILTER_VALIDATE_INT);
@@ -32,8 +34,10 @@ $rows = $sql->getRows($query);
 .app_box {
 	width: 300px;
 	height: 350px;
-	margin-right: 20px;
-	background-color: #F0F7FF;
+	margin-right: 5px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #EEE;
+  border-right: 1px solid #EEE;
 	float: left;
 }
 </style>
@@ -42,14 +46,14 @@ $rows = $sql->getRows($query);
 foreach($rows as $app) {
 ?>
 	<div class="app_box">
-	  <a href="#" onClick="show_app_detail('<?=$app->id;?>');">
+	  <a href="#" onClick="ajaxGET('views/app_detail.php?id=<?=$app->id;?>', 'main_container')">
 		<img src="<?=$app->img_url;?>" />
 	  </a>
 	<div style="padding: 5px;">
 	<span style="font-weight: bold; text-align: center; width: 300px;"><?=$app->app_title;?></span>
 	<p><?=$app->app_desc;?></p>
 	<br/>
-	<a href="">Learn More</a>
+	<a href="#" onClick="ajaxGET('views/app_detail.php?id=<?=$app->id;?>','main_container')">Learn More</a>
     </div>
 	</div>
 <?

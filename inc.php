@@ -5,6 +5,7 @@ ini_set("display_errors", 1);
 // Include main site config.
 defined('ROOT_PATH') or define('ROOT_PATH', realpath(dirname(__FILE__)));
 include(ROOT_PATH.'/conf/site-config.php');
+defined('WWW_PATH') or define('WWW_PATH', $site_config['site']['wwwroot']);
 
 // Include all files below this line ----------------------------------------
 include(ROOT_PATH.'/lib/util.php');
