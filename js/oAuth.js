@@ -14,16 +14,19 @@ var helper = (function() {
           console.log('oAuth: found access_token');
           // Found access token, hide login button.
           $('#gConnect').hide();
+          $('#joinBtn').show();
+          $('#joinLogin').hide();
           helper.profile();
-          helper.people();
+          OnLoadCallBack(); //
+          //helper.addUser();
         } else if (authResult['error']) {
+          OnLoadCallBack(); //
           console.log('oAuth: authResult->error');
           // There was an error, which means the user is not signed in.
           // As an example, you can handle by writing to the console:
           console.log('There was an error: ' + authResult['error']);
           $('#gConnect').show();
         }
-        console.log('authResult', authResult);
       });
     },
 
@@ -31,6 +34,7 @@ var helper = (function() {
      * Calls the OAuth2 endpoint to disconnect the app for the user.
      */
     disconnect: function() {
+      console.log('disconnecting');
       // Revoke the access token.
       $.ajax({
         type: 'GET',
@@ -54,26 +58,27 @@ var helper = (function() {
     },
 
     /**
-     * Gets and renders the list of people visible to this app.
+     * Add user to SQL database on Login
      */
-    people: function() {
-      var request = gapi.client.plus.people.list({
-        'userId': 'me',
-        'collection': 'visible'
-      });
-      request.execute(function(people) {
-        $('#visiblePeople').empty();
-        $('#visiblePeople').append('Number of people visible to this app: ' +
-            people.totalItems + '<br/>');
-        for (var personIndex in people.items) {
-          person = people.items[personIndex];
-          $('#visiblePeople').append('<img src="' + person.image.url + '">');
+    addUser: function() {
+      var request = gapi.client.plus.people.get( {'userId' : 'me'} );
+      request.execute( function(profile) {
+        // Add user to team_members
+        //alert(profile.email);
+        var uri = 'google_id='+profile.id+'&name='+profile.displayName;
+        var member_exists = checkField('team_members', 'google_id', profile.id);
+        if(member_exists > 0) {
+          genericDialog('New User', 'views/add_user_form.php?'+uri);
         }
+        //var res = ajaxPOST('ajax/add_user.php', uri);
+        //if(res > 0) {
+        //  alert('Welcome '+profile.displayName+', you can now join teams!');
+       // }
       });
     },
 
     /**
-    *
+     *  Get Name
      */
      getName: function() {
       var request = gapi.client.plus.people.get({'userId' : 'me'});
@@ -81,10 +86,13 @@ var helper = (function() {
         return profile;
       });
      },
+     /**
+      * Join Team
+      */
      joinTeam: function() {
       var request = gapi.client.plus.people.get({'userId' : 'me'});
       request.execute( function(profile) {
-        alert(profile.displayName);
+        //alert(profile.displayName);
       });
      },
     /**
@@ -93,18 +101,18 @@ var helper = (function() {
     profile: function(){
       var request = gapi.client.plus.people.get( {'userId' : 'me'} );
       request.execute( function(profile) {
+       // alert(profile['email']);
+        var stuff;
+        for( var key in profile) {
+          stuff = stuff + key +'\n' + profile[key]+"\n\n";
+        }
+        //alert(stuff);
         $('#profile').empty();
         if (profile.error) {
           $('#profile').append(profile.error);
           return;
         }
-        //$('#userInfo').append(
-//            $('<img src=\"' + profile.image.url + '\">'));
         $('#userInfo').append('Signed in as: '+profile.displayName);
-        if (profile.cover && profile.coverPhoto) {
-          $('#userInfo').append(
-              $('<p><img src=\"' + profile.cover.coverPhoto.url + '\"></p>'));
-        }
         $('#disconnect').show();
       });
     }

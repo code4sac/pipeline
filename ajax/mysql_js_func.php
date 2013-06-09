@@ -9,9 +9,23 @@ switch($action) {
 	case 'delete':
 		mjs_delete();
 		break;
+  case 'check':
+    mjs_check();
+    break;
 	case 'other':
 		mjs_other();
 		break;
+}
+
+function mjs_check() {
+  $sql = new mysql();
+	$table	= $_GET['table'];
+	$field	= $_GET['field'];
+	$value	= $_GET['value'];
+
+  $query = "SELECT $field FROM $table WHERE $field = '$value'";
+  $row = $sql->getRows($query);
+  print count($row);
 }
 
 function mjs_update() {

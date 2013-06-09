@@ -2,12 +2,14 @@
 include('../inc.php');
 $sql = new mysql();
 
+$_POST['email_address'] = urldecode($_POST['email_address']);
+
 $google_id = filter_var($_POST['google_id'], FILTER_SANITIZE_NUMBER_INT);
 $app_id    = filter_var($_POST['app_id'], FILTER_VALIDATE_INT);
-$user_name = filter_VAR($_POST['user_name'], FILTER_SANITIZE_STRING);
-$member_id = filter_VAR($_POST['member_id'], FILTER_VALIDATE_INT);
-$role      = filter_VAR($_POST['role'], FILTER_VALIDATE_INT);
-
+$user_name = filter_var($_POST['user_name'], FILTER_SANITIZE_STRING);
+$member_id = filter_var($_POST['member_id'], FILTER_VALIDATE_INT);
+$email_add = filter_var($_POST['email_address'], FILTER_VALIDATE_EMAIL);
+$role      = filter_var($_POST['role'], FILTER_VALIDATE_INT);
 
 // Check for dups
 $dupQ = "
@@ -25,6 +27,7 @@ if($dupRes[0]->count == 0) {
       '$member_id',
       '$app_id',
       '$role',
+      '$email_add',
       '1'
       )
   ";

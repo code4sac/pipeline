@@ -19,6 +19,7 @@ include('inc.php');
 	<script src="<? echo WWW_PATH;?>/js/jquery.min.js"></script>
 	<script src="<? echo WWW_PATH;?>/js/jquery-ui.min.js"></script>
 	<script src="<? echo WWW_PATH;?>/js/oAuth.js"></script>
+
   <!--
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>

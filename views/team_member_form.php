@@ -17,10 +17,15 @@ $uid = $uid[0]->id;
 ?>
 <script type="text/javascript">
 function submitForm() {
-  var res = ajaxFormPOST('ajax/add_team_member.php', '#new_user_form');
-  alert(res);
-  show_team_members();
-  $('.ui-dialog').remove(); 
+  var email_address = $('#email_address').val();
+  if(email_address == '') {
+    alert('please enter an email address. This is required so we can contact you');
+  } else {
+    var res = ajaxFormPOST('ajax/add_team_member.php', '#new_user_form');
+    alert(res);
+    show_team_members();
+    $('.ui-dialog').remove(); 
+  }
 }
 </script>
 <p>
@@ -31,6 +36,7 @@ If you would like to change your role, please leave the team and join again.
 <form id="new_user_form">
   <label for="role">What would you like your primary role to be?</label>
   <select name="role" id="role">
+  <option value="" SELECTED>Select a role...</option>
 <?
   $query = "SELECT * FROM roles";
   $roles = $sql->getRows($query);
@@ -39,6 +45,9 @@ If you would like to change your role, please leave the team and join again.
   }
 ?>
   </select>
+  <br/>
+  <label for="email_address">Email Address: </label>
+  <input type="text" name="email_address" id="email_address" />
   <input type="hidden" name="google_id" value="<?=$google_id;?>"/>
   <input type="hidden" name="app_id" value="<?=$app_id;?>"/>
   <input type="hidden" name="user_name" value="<?=$user_name;?>"/>

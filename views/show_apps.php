@@ -44,6 +44,9 @@ $rows = $sql->getRows($query);
 <div style="padding: 10px;">
 <?
 foreach($rows as $app) {
+  if($app->img_url == '') {
+    $app->img_url = 'views/img/placeholder.png';
+  }
 ?>
 	<div class="app_box">
 	  <a href="#" onClick="ajaxGET('views/app_detail.php?id=<?=$app->id;?>', 'main_container')">
